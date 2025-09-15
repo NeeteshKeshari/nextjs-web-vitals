@@ -4,6 +4,17 @@
 	"version": "1.0.3",
 	"license": "MIT",
 	"author": "Neetesh Keshari",
+	"keywords": [
+	  "nextjs",
+	  "core-web-vitals",
+	  "cwv",
+	  "lighthouse",
+	  "performance",
+	  "validator",
+	  "web-vitals",
+	  "nextjs-app-router",
+	  "nextjs-pages-router"
+	],
 	"bin": {
 		"cwv-validator": "./bin/cwv-validator.js"
 	},

@@ -1,0 +1,18 @@
+{
+	"name": "nextjs-web-vitals",
+	"description": "Core Web Vitals validator for Next.js projects",
+	"version": "1.0.3",
+	"license": "MIT",
+	"author": "Neetesh Keshari",
+	"bin": {
+		"cwv-validator": "./bin/cwv-validator.js"
+	},
+	"type": "module",
+	"dependencies": {
+		"lighthouse": "^10.0.0",
+		"chrome-launcher": "^0.15.0"
+	},
+	"scripts": {
+		"build": "node bin/cwv-validator.js"
+	}
+}
